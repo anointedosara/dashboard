@@ -94,7 +94,8 @@ body {
   padding: 20px 35px;
   position: sticky;
   left: 0;
-  height: 520px;
+  top: 84.4px;
+  height: calc(100vh - 84.3px);
   overflow-y: auto;
   overflow-x: hidden;
 }
@@ -690,7 +691,7 @@ body {
   background: #f9f9f9;
   position: sticky;
   left: 0;
-  height: 520px;
+  min-height: 100%;
   overflow-y: auto;
   overflow-x: hidden;
 }
