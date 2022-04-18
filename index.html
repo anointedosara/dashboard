@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+
+<body>
+    <nav class=" navbar">
+        <div class="div1">
+            <img class="img1" src="./images/h.png">
+            <p>HostBeak</p>
+            <img class="img2" src="./images/greater.png">
+        </div>
+        <div class="div2">
+            <img class="img3" src="./images/Notification.png">
+            <img class="img4" src="./images/profile.png">
+            <p>Miles</p>
+            <img class="img5" src="./images/drop.png">
+        </div>
+    </nav>
+
+    <div class="div3">
+        <div class="div4">
+            <div class="div5">
+                <div class="div7">
+                    <img src="./images/plane.png">
+                </div>
+                <div class="nav-flex">
+                    <p>Welcome</p>
+                    <div></div>
+                </div>
+            </div>
+            <div class="div5">
+                <div class="div7">
+                    <img src="./images/grid.png">
+                </div>
+                <div class="nav-flex">
+                    <p>Dashboard</p>
+                    <div></div>
+                </div>
+            </div>
+            <div class="div5">
+                <div class="div7">
+                    <img src="./images/wallet.png">
+                </div>
+                <div class="nav-flex">
+                    <p>Sales</p>
+                    <img class="img" src="./images/arrow.png">
+                </div>
+            </div>
+            <div class="div5">
+                <div class="div6">
+                    <img src="./images/Purchase.png">
+                </div>
+                <div class="nav-flex">
+                    <p>Purchases</p>
+                    <img class="img" src="./images/arrow.png">
+                </div>
+            </div>
+            <div class="div5">
+                <div class="div7">
+                    <img src="./images/account.png">
+                </div>
+                <div class="nav-flex">
+                    <p>Accounting</p>
+                    <img class="img" src="./images/arrow.png">
+                </div>
+            </div>
+            <div class="div5">
+                <div class="div7">
+                    <img src="./images/bank.png">
+                </div>
+                <div class="nav-flex">
+                    <p>Banking</p>
+                    <img class="img" src="./images/arrow.png">
+                </div>
+            </div>
+            <div class="div5">
+                <div class="div7">
+                    <img src="./images/payroll.png">
+                </div>
+                <div class="nav-flex">
+                    <p>Payroll</p>
+                    <img class="img" src="./images/arrow.png">
+                </div>
+            </div>
+            <div class="div5">
+                <div class="div7">
+                    <img src="./images/timmer.png">
+                </div>
+                <div class="nav-flex">
+                    <p>Reports</p>
+                    <div></div>
+                </div>
+            </div>
+            <div class="div5">
+                <div class="div7">
+                    <img src="./images/people.png">
+                </div>
+                <div class="nav-flex">
+                    <p>Analytics</p>
+                    <img class="img" src="./images/arrow.png">
+                </div>
+            </div>
+            <div class="div5">
+                <div class="div7">
+                    <img src="./images/settings.png">
+                </div>
+                <div class="nav-flex">
+                    <p>Settings</p>
+                    <div></div>
+                </div>
+            </div>
+            <div class="div8">
+                <div class="div7">
+                    <img src="./images/logout.png">
+                </div>
+                <div class="nav-flex">
+                    <p>Logout</p>
+                    <div></div>
+                </div>
+            </div>
+            <div class="mile">
+                <div class="they">
+                    <img src="./images/deposit.png">
+                </div>
+                <div class="div9">
+                    <p>Accept Payments</p>
+                </div>
+            </div>
+            <div class="me"></div>
+        </div>
+
+        <div class="div10">
+            <div class="div11">
+                <p>Add bill</p>
+
+                <div class="div12">
+                    <div class="div13">
+                        <div class="div14">
+                            Vendor<br>
+                            <select type="vendor" required>
+                                <option>Choose</option>
+                                <option>Select1</option>
+                                <option>Select2</option>
+                                <option>Select3</option>
+                                <option>Select4</option>
+                                <option>Select5</option>
+                            </select>
+                        </div>
+                        <div class="div14">
+                            Date<br>
+                            <input type="date" required>
+                        </div>
+                        <div class="div14">
+                            Bill #<br>
+                            <input type="text" required>
+                        </div>
+                    </div>
+
+                    <div class="div13">
+                        <div>
+                            <div class="div14">
+                                Currency<br>
+                                <select type="currency">
+                                    <option>USD-U.S dollar</option>
+                                    <option>Select1</option>
+                                    <option>Select2</option>
+                                    <option>Select3</option>
+                                    <option>Select4</option>
+                                    <option>Select5</option>
+                               </select>
+                            </div>
+                            <div class="div15">
+                                Upload Copy of Bill<br>
+                                <input type="file" id="file" name="filename" accept="image/*">
+                                <label for="file">
+                                    Upload File
+                                    <img src="./images/Upload.png">
+                                </label>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="div14">
+                                Due Date<br>
+                                <input type="date" required>
+                            </div>
+                            <div class="div15">
+                                P.O./S.O<br>
+                                <input type="text" required>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="div14">
+                                Notes<br>
+                                <textarea type="text" style="resize: none" required></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="div16">
+                    <table>
+                        <tr>
+                            <th>Item</th>
+                            <th>Expense Category</th>
+                            <th>Description</th>
+                            <th>Qty</th>
+                            <th>Price</th>
+                            <th>Tax</th>
+                            <th>Amount</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <select type="vendor" class="select1" required>
+                                    <option>Choose</option>
+                                    <option>Select1</option>
+                                    <option>Select2</option>
+                                    <option>Select3</option>
+                                    <option>Select4</option>
+                                    <option>Select5</option>
+                                </select>
+                            </td>
+                            <td><select type="vendor" class="select2" required>
+                                <option>Choose</option>
+                                <option>Select1</option>
+                                <option>Select2</option>
+                                <option>Select3</option>
+                                <option>Select4</option>
+                                <option>Select5</option>
+                            </select>
+                            </td>
+                            <td><input type="text" class="text1" required></td>
+                            <td><input type="text" class="input1"></td>
+                            <td><input type="text" class="input2"></td>
+                            <td>
+                                <div class="td">
+                                    <input type="text" class="input3">
+                                    <img src="./images/write.png">
+                                </div>
+                            </td>
+                            <td>
+                                <div class="th">
+                                    N0.00
+                                    <img src="./images/trash.png">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="tr">
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>
+                                <div class="div17">
+                                    <p>Subtotal:</p>
+                                    <p>N0.00</p>
+                                </div>
+                                <div class="div17">
+                                    <p>Total (NGN):</p>
+                                    <p>N0.00</p>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="div18">
+                    <div class="div19">Cancel</div>
+                    <div>Save</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
